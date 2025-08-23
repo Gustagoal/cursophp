@@ -6,9 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Dados do servidor</h1>
     <?php
-    print 'Ola , estou testando o PHP'
+    const estado = 'São Paulo'; 
+    $nome = 'Gustavo';
+    print $nome .'Você mora em '. estado;
+
     ?>
 </body>
 </html>
